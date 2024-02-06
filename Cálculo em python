@@ -1,0 +1,9 @@
+import os
+distancia = int(input("Digite a distância percorrida: "))
+os.system('clear')
+consumo = int(input("Digite o consumo do seu veículo: "))
+os.system('clear')
+preco = float(input("Digite o preço da gasolina:  "))
+os.system('clear')
+formula = (distancia/consumo)*preco
+print(f"Para você fazer essa viagem, você gastará R$ {formula:.2f}")
